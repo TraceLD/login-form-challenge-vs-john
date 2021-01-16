@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Login</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="styles.css">
+    <script src='main.js'></script>
+</head>
+
+<body>
+    <div class="font-body min-h-screen w-full flex flex-col">
+        <div class="flex justify-center">
+            <div id="form" class="max-w-sm mt-12 rounded-xl shadow-lg p-8">
+                <p class="font-semibold text-xl text-gray-900">Welcome</p>
+                <p class="font-light text-sm text-gray-700">Sign in to continue</p>
+                <div id="form-inputs" class="mt-6">                    
+                    <input type="text" class="border rounded w-full px-3 py-1 hover:border-vibrantblue focus:border-vibrantblue" placeholder="Username">
+                    <input type="password" class="border rounded w-full mt-3 px-3 py-1 hover:border-vibrantblue focus:border-vibrantblue" placeholder="Password">
+                    <button class="bg-vibrantblue rounded w-full mt-6 py-2 text-gray-100">
+                        Sign in
+                    </button>
+                    <p class="font-light text-center mt-1 text-gray-500">or</p>
+                    <button class="bg-green-500 rounded w-full mt-1 py-2 text-gray-100">
+                        Create an account
+                    </button>
+                </div>
+                <div id="forgot-password" class="mt-4 flex justify-center">
+                    <a href="/forgot-password" class="text-vibrantpink font-semibold">Forgot password?</p>
+                </div>                
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

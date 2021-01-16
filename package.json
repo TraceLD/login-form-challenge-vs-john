@@ -1,0 +1,17 @@
+{
+  "name": "challenge-against-the-boomer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "live-server public",
+    "build-css": "tailwindcss build src/styles.css -o public/styles.css",
+    "publish": "cross-env NODE_ENV=production tailwindcss build src/styles.css -o public/styles.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cross-env": "^7.0.2",
+    "tailwindcss": "^1.8.5"
+  }
+}
